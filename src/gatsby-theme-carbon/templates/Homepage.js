@@ -6,14 +6,11 @@ import { blue90, gray10, white } from '@carbon/elements';
 import styles from './Homepage.module.scss';
 import HomepageVideo from '../../components/HomepageVideo/HomepageVideo';
 
-const FirstLeftText = () => <p>Carbon Design System</p>;
+const FirstLeftText = () => <p>Web Guidelines for PSECI</p>;
 
 const FirstRightText = () => (
   <p>
-    Carbon is IBM’s <strong>open source</strong> design system for products and
-    digital experiences. With the IBM Design Language as its foundation, the
-    system consists of working code, design tools and resources, human interface
-    guidelines, and a vibrant community of contributors.
+    Use the writing for web guidelines and Carbon Fibre design system when creating all digital products and experiences. Carbon Fibre is a fork of IBM’s Carbon <strong>open source</strong> design system. 
   </p>
 );
 
