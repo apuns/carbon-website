@@ -1,4 +1,4 @@
-- title: All about Carbon
+- title: Content Strategy
   pages:
     - title: What is Carbon?
       path: /all-about-carbon/what-is-carbon
@@ -8,7 +8,7 @@
       path: /all-about-carbon/the-team
     - title: Partners
       path: /all-about-carbon/partners
-- title: Designing
+- title: Web Writing Guidelines
   pages:
     - title: Get started
       path: /designing/get-started
@@ -18,50 +18,8 @@
       path: /designing/design-resources
     - title: Tutorials
       path: /designing/tutorials
-- title: Developing
-  pages:
-    - title: Get started
-      path: /developing/get-started
-    - title: Frameworks
-      path: /developing/frameworks/react
-    - title: Developer resources
-      path: /developing/dev-resources
-    - title: Angular tutorial
-      path: /developing/angular-tutorial/overview
-    - title: React tutorial
-      path: /developing/react-tutorial/overview
-    - title: Vue tutorial
-      path: /developing/vue-tutorial/overview
-- title: Contributing
-  pages:
-    - title: Overview
-      path: /contributing/overview
-    - title: Bugs and requests
-      path: /contributing/bugs-and-requests
-    - title: Documentation
-      path: /contributing/documentation
-    - title: Components
-      path: /contributing/component
-    - title: Icons
-      path: /contributing/contribute-icons
-    - title: Patterns
-      path: /contributing/pattern
-    - title: Pictograms
-      path: /contributing/contribute-pictograms
-    - title: Add ons
-      path: /contributing/add-ons
-- title: What’s happening
-  pages:
-    - title: Changelog and roadmap
-      path: /whats-happening/changelog-and-roadmap
-    - title: News and articles
-      path: /whats-happening/news-and-articles
-    - title: Meetups
-      path: /whats-happening/meetups
-    - title: Work in progress
-      path: /whats-happening/work-in-progress
   hasDivider: true
-- title: Guidelines
+- title: Design System Guidelines
   pages:
     - title: 2x Grid
       path: /guidelines/2x-grid/overview
@@ -187,45 +145,3 @@
       path: /patterns/search-pattern
     - title: Text toolbar
       path: /patterns/text-toolbar-pattern
-- title: Community assets
-  pages:
-    - title: Overview
-      path: /community/overview
-    - title: Component index
-      path: /community/component-index
-    - title: Data visualization index
-      path: /community/data-visualization-index
-    - title: Patterns
-      path: /community/patterns
-    - title: Domain guidance
-      path: /community/domain-guidance
-- title: Data visualization
-  pages:
-    - title: Get started
-      path: /data-visualization/getting-started
-    - title: Chart types
-      path: /data-visualization/chart-types
-    - title: Chart anatomy
-      path: /data-visualization/chart-anatomy
-    - title: Basic charts
-      path: /data-visualization/basic-charts
-    - title: Advanced charts
-      path: /data-visualization/advanced-charts
-    - title: Color palettes
-      path: /data-visualization/color-palettes
-    - title: Axes and labels
-      path: /data-visualization/axes-and-labels
-    - title: Legends
-      path: /data-visualization/legends
-    - title: Dashboards
-      path: /data-visualization/dashboards
-- title: Help
-  pages:
-    - title: FAQs
-      path: /help/faq
-    - title: Certificate of Originality
-      path: /help/certificate-of-originality
-    - title: Migration guide
-      path: /help/migration-guide/overview
-    - title: Contact us
-      path: /help/contact-us
