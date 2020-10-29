@@ -3,8 +3,8 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'GitHub',
-    href: 'https://github.com/carbon-design-system/carbon',
+    title: 'New Website',
+    href: 'https://gww.gov.bc.ca',
   },
 ];
 
