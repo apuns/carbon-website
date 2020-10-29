@@ -29,16 +29,15 @@ const Content = ({ buildTime }) => (
 const links = {
   firstCol: [
     {
-      href: 'https://www.carbondesignsystem.com/help/contact-us',
+      href: 'mailto:EmployeeNews@gov.bc.ca',
       linkText: 'Contact us',
     },
-    { href: 'https://www.ibm.com/privacy', linkText: 'Privacy' },
-    { href: 'https://www.ibm.com/legal', linkText: 'Terms of use' },
-    { href: 'https://www.ibm.com/', linkText: 'IBM.com' },
+    { href: 'https://www.ibm.com/', linkText: 'Intranet Link' },
+    { href: 'https://www.ibm.com/', linkText: 'Another Link' },
   ],
   secondCol: [
-    { href: 'https://medium.com/carbondesign', linkText: 'Medium' },
-    { href: 'https://twitter.com/_carbondesign', linkText: 'Twitter' },
+    { href: 'https://medium.com/carbondesign', linkText: 'Writing for Web' },
+    { href: 'https://twitter.com/_carbondesign', linkText: 'Carbon Fibre Design System' },
   ],
 };
 
