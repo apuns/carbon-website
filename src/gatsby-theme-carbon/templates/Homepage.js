@@ -14,7 +14,7 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => (
+/*const SecondLeftText = () => (
   <p>
     Wondering how
     <br />
@@ -31,7 +31,7 @@ const SecondRightText = () => (
       Start contributing →
     </a>
   </p>
-);
+); */
 
 const customProps = {
   Banner: (
@@ -43,7 +43,7 @@ const customProps = {
             <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
               <ResourceCard
                 className={styles.callToAction}
-                title="Carbon meetups"
+                title="A Link to Something"
                 href="/whats-happening/meetups"
                 color="dark"
                 actionIcon="arrowRight"
@@ -63,15 +63,15 @@ const customProps = {
       rightText={FirstRightText}
     />
   ),
-  SecondCallout: (
+  /*SecondCallout: (
     <HomepageCallout
       leftText={SecondLeftText}
       rightText={SecondRightText}
       color={white}
       backgroundColor={blue90}
     />
-  ),
-};
+  ),*/
+}; 
 
 // spreading the original props gives us props.children (mdx content)
 function ShadowedHomepage(props) {
