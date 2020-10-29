@@ -2,12 +2,12 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Carbon Design System',
+    title: 'PSA Web Guidelines',
     siteUrl: 'https://www.carbondesignsystem.com',
     description:
-      'Carbon is the design system for IBM web and product. It is a series of individual styles, components, and guidelines used for creating unified UI.',
+      'These guidelines cover writing for web and the Carbon Fibre design system. Carbon Fibre is a fork of IBM\'s Carbon design system.',
     keywords:
-      'IBM, design, system, Carbon, design system, Bluemix, styleguide, style, guide, components, library, pattern, kit, component, cloud',
+      'design, system, Carbon Fibre, design system, Bluemix, styleguide, style, guide, components, library, pattern, kit, component, cloud',
   },
   plugins: [
     {
