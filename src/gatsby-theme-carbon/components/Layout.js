@@ -85,7 +85,7 @@ const Layout = ({
       <Switcher />
       <LeftNav homepage={homepage} is404Page={is404} theme={theme} />
       <Container homepage={homepage} theme={theme}>
-        {children}
+      {children}
         <Footer />
       </Container>
     </div>
