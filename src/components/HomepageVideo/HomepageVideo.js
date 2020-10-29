@@ -2,10 +2,10 @@
 import React, { useRef, useState } from 'react';
 import ToggleIcon from './ToggleIcon';
 
-import webm from './carbon.webm';
-import mp4 from './carbon.mp4';
+import webm from './typing.webm';
+import mp4 from './typing.mp4';
 
-import poster from './poster.jpg';
+import poster from './keyboard.jpg';
 
 const HomepageVideo = () => {
   const videoRef = useRef();
