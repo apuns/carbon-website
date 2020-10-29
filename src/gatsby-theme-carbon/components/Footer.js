@@ -11,14 +11,8 @@ const versions = {
 const Content = ({ buildTime }) => (
   <>
     <p>
-      Have questions? Email us <br />
-      at <a href="mailto:carbon@us.ibm.com">carbon@us.ibm.com</a> <br />
-      or open an issue on{' '}
-      <a
-        style={{ textDecoration: 'underline' }}
-        href="https://github.com/carbon-design-system/carbon-website/issues/new">
-        GitHub.
-      </a>
+      Have questions? <br /> Email Corporate Communications <br />
+      at <a href="mailto:EmployeeNews@gov.bc.ca">EmployeeNews@gov.bc.ca</a> 
     </p>
     <p>
       Vanilla Components version {versions.components}
