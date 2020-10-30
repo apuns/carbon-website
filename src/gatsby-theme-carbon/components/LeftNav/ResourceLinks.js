@@ -3,8 +3,8 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'New Website',
-    href: 'https://gww.gov.bc.ca',
+    title: 'WordPress Test Site',
+    href: 'https://gww.gov.bc.cahttp://wordpress-apache-b07dd3-dev.apps.silver.devops.gov.bc.ca/wp-admin/',
   },
 ];
 
