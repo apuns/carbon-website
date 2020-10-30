@@ -2,6 +2,7 @@
   pages:
     - title: Introduction
       path: /introduction/introduction
+  hasDivider: true
 - title: Content Strategy
   pages:
     - title: Vision
