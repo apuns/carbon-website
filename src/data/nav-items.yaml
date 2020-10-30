@@ -6,8 +6,10 @@
       path: /all-about-carbon/audience
     - title: Editorial Approach
       path: /all-about-carbon/editorial-approach
-    - title: Partners
-      path: /all-about-carbon/partners
+    - title: Publish
+      path: /all-about-carbon/publish
+    - title: Governance
+      path: /all-about-carbon/governance
 - title: Web Writing Guidelines
   pages:
     - title: Get started
