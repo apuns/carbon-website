@@ -43,8 +43,8 @@ const customProps = {
             <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
               <ResourceCard
                 className={styles.callToAction}
-                title="A Link to Something"
-                href="/whats-happening/meetups"
+                title="What is all this, anyway?"
+                href="/introduction/introduction"
                 color="dark"
                 actionIcon="arrowRight"
               />
