@@ -1,15 +1,15 @@
 - title: Content Strategy
   pages:
     - title: Vision
-      path: /all-about-carbon/vision
+      path: /content-strategy/vision
     - title: Audience
-      path: /all-about-carbon/audience
+      path: /content-strategy/audience
     - title: Editorial Approach
-      path: /all-about-carbon/editorial-approach
+      path: /content-strategy/editorial-approach
     - title: Publish
-      path: /all-about-carbon/publish
+      path: /content-strategy/publish
     - title: Governance
-      path: /all-about-carbon/governance
+      path: /content-strategy/governance
 - title: Web Writing Guidelines
   pages:
     - title: Get started
