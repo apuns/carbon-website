@@ -1,7 +1,10 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
 import packageJson from '../../../package.json';
+<<<<<<< HEAD
 import Logo from 'gatsby-theme-carbon/src/components/Footer/wiw-pos-rgb.png';
+=======
+>>>>>>> parent of 29c7c69e... updating footer to include WIW logo
 
 const currentYear = new Date().getFullYear();
 const versions = {
@@ -27,11 +30,6 @@ const Content = ({ buildTime }) => (
   </>
 );
 
-const WIWLogo = () => {
-  return (
-  img, src={Logo}, alt="Logo" )
-}
-
 const links = {
   firstCol: [
     {
@@ -47,6 +45,6 @@ const links = {
   ],
 };
 
-const CustomFooter = () => <Footer logo={WIWLogo} links={links} Content={Content} />;
+const CustomFooter = () => <Footer links={links} Content={Content} />;
 
 export default CustomFooter;

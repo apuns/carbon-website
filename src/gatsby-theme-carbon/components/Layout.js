@@ -18,6 +18,7 @@ import {
   layoutNoBanner,
   banner,
   bannerClose,
+  initialism,
   fullName,
 } from '../../styles/Layout.module.scss';
 
@@ -85,7 +86,7 @@ const Layout = ({
       <LeftNav homepage={homepage} is404Page={is404} theme={theme} />
       <Container homepage={homepage} theme={theme}>
       {children}
-      <Footer />
+        <Footer />
       </Container>
     </div>
   );
