@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
 import packageJson from '../../../package.json';
-import Logo from 'gatsby-theme-carbon/src/components/Footer/wiw-pos-rgb.png';
+import Logo from 'gatsby-theme-carbon/src/pages/global/images/wiw-pos-rgb.png';
 
 const currentYear = new Date().getFullYear();
 const versions = {
