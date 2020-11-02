@@ -10,7 +10,10 @@ import packageJson from '../../../package.json';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Logo from 'gatsby-theme-carbon/src/components/Footer/wiw-pos-rgb.png';
+=======
+>>>>>>> parent of 29c7c69e... updating footer to include WIW logo
 =======
 >>>>>>> parent of 29c7c69e... updating footer to include WIW logo
 =======
