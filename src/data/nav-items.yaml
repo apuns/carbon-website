@@ -17,14 +17,8 @@
       path: /content-strategy/governance
 - title: Web Writing Guidelines
   pages:
-    - title: Get started
-      path: /designing/get-started
-    - title: Design kits
-      path: /designing/kits/sketch
-    - title: Other resources
-      path: /designing/design-resources
-    - title: Tutorials
-      path: /designing/tutorials
+    - title: Evergreen Content Guidelines
+      path: /web-writing-guidelines/web-writing-guidelines
   hasDivider: true
 - title: Design System Guidelines
   pages:
