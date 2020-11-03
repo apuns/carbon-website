@@ -21,7 +21,7 @@ const Content = ({ buildTime }) => (
       <br />
       Last updated {buildTime}
       <br />
-      Copyright © {currentYear} IBM
+      Components Copyright © {currentYear} IBM
     </p>
   </>
 );
