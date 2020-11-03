@@ -32,12 +32,12 @@ const links = {
       href: 'mailto:EmployeeNews@gov.bc.ca',
       linkText: 'Contact us',
     },
-    { href: 'https://www.ibm.com/', linkText: 'Intranet Link' },
-    { href: 'https://www.ibm.com/', linkText: 'Another Link' },
+    { href: 'http://wordpress-apache-b07dd3-dev.apps.silver.devops.gov.bc.ca/wp-admin/', linkText: 'WordPress Test Site' },
+    { href: 'https://gww.gov.bc.ca', linkText: '@Work Intranet' },
   ],
   secondCol: [
-    { href: 'https://medium.com/carbondesign', linkText: 'Writing for Web' },
-    { href: 'https://twitter.com/_carbondesign', linkText: 'Carbon Fibre Design System' },
+    { href: '/web-writing-guidelines/web-writing-guidelines', linkText: 'Writing for Web' },
+    { href: '/components/overview', linkText: 'Carbon Fibre Design System' },
   ],
 };
 
