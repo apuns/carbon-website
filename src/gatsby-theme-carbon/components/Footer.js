@@ -1,6 +1,9 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
 import packageJson from '../../../package.json';
+import Logo from 'gatsby-theme-carbon/src/components/logo.png';
+
+console.log(Logo)
 
 const currentYear = new Date().getFullYear();
 const versions = {
@@ -8,23 +11,31 @@ const versions = {
   react: packageJson.dependencies['carbon-components-react'],
 };
 
-const Content = ({ buildTime }) => (
-  <>
-    <p>
-      Have questions? <br /> Email Corporate Communications <br />
-      at <a href="mailto:EmployeeNews@gov.bc.ca">EmployeeNews@gov.bc.ca</a> 
-    </p>
-    <p>
-      Vanilla Components version {versions.components}
-      <br />
-      React Components version {versions.react}
-      <br />
-      Last updated {buildTime}
-      <br />
-      Components Copyright © {currentYear} IBM
-    </p>
-  </>
-);
+function WIWLogo () {
+  return (
+    <img src={Logo} alt="Where Ideas Work Logo" />
+  )
+}
+
+function Content({ buildTime }) {
+  return (
+    <>
+      <p>
+        Have questions?<br /> Email Corporate Communications <br />
+        at <a href="mailto:EmployeeNews@gov.bc.ca">EmployeeNews@gov.bc.ca</a>
+      </p>
+      <p>
+        Vanilla Components version {versions.components}
+        <br />
+        React Components version {versions.react}
+        <br />
+        Last updated {buildTime}
+        <br />
+        Components Copyright © {currentYear} IBM
+      </p>
+    </>
+  );
+}
 
 const links = {
   firstCol: [
@@ -41,6 +52,6 @@ const links = {
   ],
 };
 
-const CustomFooter = () => <Footer links={links} Content={Content} />;
+const CustomFooter = () => <Footer links={links} Content={Content} Logo={WIWLogo} />;
 
 export default CustomFooter;

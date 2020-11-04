@@ -1,7 +1,7 @@
 import React from 'react';
-import Switcher from 'gatsby-theme-carbon/src/components/Switcher'
-  
-  // https://css-tricks.com/using-css-transitions-auto-dimensions/
+import { Switcher } from 'gatsby-theme-carbon/src/components/Switcher';
+
+// https://css-tricks.com/using-css-transitions-auto-dimensions/
   // Note: if you change this, update the max-height in the switcher stylesheet
 
 const CustomChildren = () => (
@@ -16,7 +16,7 @@ const CustomChildren = () => (
       </SwitcherLink>
     </>
   );
-}
+
   
   const CustomSwitcher = () => <Switcher children={CustomChildren} />;
   export default CustomSwitcher;
