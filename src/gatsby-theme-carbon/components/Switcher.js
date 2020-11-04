@@ -2,7 +2,7 @@ import React from 'react';
 import Switcher from 'gatsby-theme-carbon/src/components/Switcher';
 
 const CustomChildren = () => (
-    <>
+  <>
       <SwitcherLink href="http://www.hemingwayapp.com/">Hemingway App</SwitcherLink>
       <SwitcherLink href="https://ibm.com/design/language">
         IBM Design Language
@@ -33,9 +33,9 @@ const CustomChildren = () => (
       <SwitcherLink href="https://www.ibm.com/services/ibmix/">
         IBM iX
       </SwitcherLink>
-    </>
+      </>
   );
   
-  const CustomSwitcher = () => <Switcher DefaultChildren={CustomChildren} />;
+  const CustomSwitcher = (props) => <Switcher {...props} DefaultChildren={CustomChildren} />;
 
   export default CustomSwitcher;
