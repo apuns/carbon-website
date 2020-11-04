@@ -6,15 +6,12 @@ import React, { useLayoutEffect, useEffect, useState } from 'react';
 import LeftNav from 'gatsby-theme-carbon/src/components/LeftNav';
 import Meta from 'gatsby-theme-carbon/src/components/Meta';
 import Header from 'gatsby-theme-carbon/src/components/Header';
-import Switcher from 'gatsby-theme-carbon/src/components/Switcher';
+import CustomSwitcher from 'gatsby-theme-carbon/src/components/Switcher';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
 import Container from 'gatsby-theme-carbon/src/components/Container';
-import { Close20 } from '@carbon/icons-react';
-import { Button } from 'carbon-components-react';
 
 import 'gatsby-theme-carbon/src/styles/index.scss';
 import {
-  layout,
   layoutNoBanner,
 } from '../../styles/Layout.module.scss';
 
@@ -53,7 +50,7 @@ const Layout = ({
       ) : null;
 
       <Header />
-      <Switcher />
+      <CustomSwitcher />
       <LeftNav homepage={homepage} is404Page={is404} theme={theme} />
       <Container homepage={homepage} theme={theme}>
       {children}
